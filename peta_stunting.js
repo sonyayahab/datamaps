@@ -288,7 +288,6 @@ AmCharts.makeChart("chartdiv_stunting", {
                 "type": "circle",
                 "scale": 0.3,
                 "color": "#FFFFFF",
-                "label": "NTT",
                 "labelColor": "#ffffff",
                 "labelShiftY": 2,
                 "title": "NTT, 51.7%",
