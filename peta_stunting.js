@@ -468,7 +468,6 @@ AmCharts.makeChart("chartdiv_stunting", {
                 "type": "circle",
                 "scale": 0.3,
                 "color": "#FFFFFF",
-                "label": "Papua",
                 "labelColor": "#ffffff",
                 "labelShiftY": 2,
                 "title": "Papua, 40.1%",
