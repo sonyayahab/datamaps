@@ -481,17 +481,17 @@ AmCharts.makeChart("chartdiv_stunting", {
         "selectedColor": "#CC0000"
     },
     "legend": {
-        "backgroundColor": "#0c0000",
-        "backgroundAlpha": 0.7,
+        "width": "100%",
+        "divId": "legenddiv_stunting",
         "align": "center",
         data: [{
-            title: "Presentase 10%-30%",
+            title: "10%-30%",
             color: "#FFC67C"
         }, {
-            title: "Presentase 30%-40%",
+            title: "30%-40%",
             color: "#ff9116"
         }, {
-            title: "Presentase 40%-60%",
+            title: "40%-60%",
             color: "#d37202"
         }]
     },
