@@ -480,20 +480,20 @@ AmCharts.makeChart("chartdiv_kehamilan", {
         "selectedColor": "#CC0000"
     },
     "legend": {
-        "backgroundColor": "#0c0000",
-        "backgroundAlpha": 0.7,
+        "width": "100%",
+        "divId": "legenddiv_kehamilan",
         "align": "center",
         data: [{
-            title: "Presentase 10%-30%",
+            title: "10%-30%",
             color: "#00ff33"
         }, {
-            title: "Presentase 30%-40%",
+            title: "30%-40%",
             color: "#00bf25"
         }, {
-            title: "Presentase 40%-60%",
+            title: "40%-60%",
             color: "#00961d"
         }, {
-            title: "Presentase 60%-90%",
+            title: "60%-90%",
             color: "#00490e"
         }]
     },
