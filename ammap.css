@@ -3,7 +3,7 @@
     display:table-cell;
     vertical-align:middle;
     text-align:center;
-    font-family:verdana,helvetica,arial,sans-serif;
+    font-family:robot, sans-serif, helvetica, arial, sans-serif, sans-serif,helvetica,arial,sans-serif;
     font-size:12px;
     color:#CC0000;
 }
@@ -11,7 +11,7 @@
 .ammapDescriptionWindow
 {
    font-size:11px;
-   font-family:verdana,helvetica,arial,sans-serif;
+   font-family:"Roboto", sans-serif, helvetica, arial, sans-serif,helvetica,arial,sans-serif;
    background-color:#FFFFFF;
    border-style:solid;
    border-color:#DADADA;
@@ -27,7 +27,7 @@
 {
    font-size:12px;
    font-weight:bold;
-   font-family:verdana,helvetica,arial,sans-serif;
+   font-family:"Roboto", sans-serif, helvetica, arial, sans-serif, helvetica, arial, sans-serif,helvetica,arial,sans-serif;
    padding-bottom:5px;
 }
 
@@ -41,7 +41,7 @@
     padding-left:20px;
     list-style:square outside;
     color:#999999;
-    font-family:verdana,helvetica,arial,sans-serif;
+    font-family:robot, sans-serif, helvetica, arial, sans-serif, sans-serif, helvetica, arial, sans-serif,helvetica,arial,sans-serif;
     font-size: 12px;
 }
 
@@ -90,11 +90,23 @@
   padding-bottom: 50%;
 }
 
+.chartwrapper_peta {
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    padding-bottom: 2%;
+}
 .chartdiv_pendidikan {
   position: absolute;
   width: 100%;
   height: 100%;
   border: 5px dot-dash #ccc;
+}
+
+.legenddiv_pendidikan {
+    width	: 100px;
+    margin-top: 10px;
+    position: absolute;
 }
 
 .chartdiv_perkawinan {
@@ -104,9 +116,32 @@
     border: 5px dot-dash #ccc;
 }
 
+.legenddiv_perkawinan {
+    width	: 100px;
+    margin-top: 10px;
+    position: absolute;
+}
 .chartdiv_stunting {
     position: absolute;
     width: 100%;
     height: 100%;
     border: 5px dot-dash #ccc;
+}
+
+.legenddiv_stunting {
+    width	: 100px;
+    margin-top: 10px;
+    position: absolute;
+}
+.chartdiv_kehamilan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 5px dot-dash #ccc;
+}
+
+.legenddiv_kehamilan {
+    width	: 100px;
+    margin-top: 10px;
+    position: absolute;
 }
