@@ -480,14 +480,14 @@ AmCharts.makeChart("chartdiv_pendidikan", {
         "selectedColor": "#CC0000"
     },
     "legend": {
-        "backgroundColor": "#0c0000",
-        "backgroundAlpha": 0.7,
+        "width": "100%",
+        "divId": "legenddiv_pendidikan",
         "align": "center",
         data: [{
-            title: "Presentase 40%-60%",
+            title: "40%-60%",
             color: "#34198e"
         }, {
-            title: "Presentase 60%-90%",
+            title: "60%-90%",
             color: "#1f0d5b"
         }]
     },
